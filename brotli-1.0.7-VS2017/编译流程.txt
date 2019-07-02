@@ -1,3 +1,5 @@
+﻿https://github.com/google/brotli
+
 1.选择release分支，在tags目录下。
 2.安装CMake工具，有官网。
 3.运行CMake-gui.exe。
