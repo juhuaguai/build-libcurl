@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "brotli", "brotli.vcxproj", "{E8853F31-5AEC-31AD-A83A-DDDAF68F3C08}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "brotlicommon", "brotlicommon.vcxproj", "{88BDF923-E0E1-3B76-B8C8-BADB5EDE5C4A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "brotlidec", "brotlidec.vcxproj", "{E08FA724-99C6-3ED2-B00A-FF95484558B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{88BDF923-E0E1-3B76-B8C8-BADB5EDE5C4A} = {88BDF923-E0E1-3B76-B8C8-BADB5EDE5C4A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "brotlienc", "brotlienc.vcxproj", "{2E79B108-4EBF-352A-BE4E-231DB3C3AA29}"
+	ProjectSection(ProjectDependencies) = postProject
+		{88BDF923-E0E1-3B76-B8C8-BADB5EDE5C4A} = {88BDF923-E0E1-3B76-B8C8-BADB5EDE5C4A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8853F31-5AEC-31AD-A83A-DDDAF68F3C08}.Release|Win32.ActiveCfg = Release|Win32
+		{E8853F31-5AEC-31AD-A83A-DDDAF68F3C08}.Release|Win32.Build.0 = Release|Win32
+		{88BDF923-E0E1-3B76-B8C8-BADB5EDE5C4A}.Release|Win32.ActiveCfg = Release|Win32
+		{88BDF923-E0E1-3B76-B8C8-BADB5EDE5C4A}.Release|Win32.Build.0 = Release|Win32
+		{E08FA724-99C6-3ED2-B00A-FF95484558B2}.Release|Win32.ActiveCfg = Release|Win32
+		{E08FA724-99C6-3ED2-B00A-FF95484558B2}.Release|Win32.Build.0 = Release|Win32
+		{2E79B108-4EBF-352A-BE4E-231DB3C3AA29}.Release|Win32.ActiveCfg = Release|Win32
+		{2E79B108-4EBF-352A-BE4E-231DB3C3AA29}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3020B8C1-B975-395F-A549-16DFB552EDF4}
+	EndGlobalSection
+EndGlobal
