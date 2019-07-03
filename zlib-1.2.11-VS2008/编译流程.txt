@@ -1,0 +1,4 @@
+1.从http://zlib.net/ 获取源码压缩包，解压。
+2.进入contrib\vstudio\vc9目录，打开sln。
+3.修改生成目标为zlib.dll，导出库为zlib.lib。
+4.选择编译选项，改为MT编译，生成。
