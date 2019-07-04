@@ -1,0 +1,9 @@
+1.从 http://nghttp2.org/ 下载源码。
+2.安装CMake工具，有官网。
+3.运行CMake-gui.exe。
+4.选择源码目录，选择生成工程配置和解决方案的目录，即sln等文件的目录。
+5.勾选上 ENABLE_FAILMALLOC，ENABLE_LIB_ONLY，ENABLE_SHARED_LIB，ENABLE_THREADS，WITH_JEMALLOC，WITH_LIBXML2，WITH_MRUBY，WITH_NEVERBLEED，WITH_SPDYLAY。有些选项虽然有说明，但是我没有具体研究是干嘛的。
+6.点击configure等待完成，点击Generate等待完成。
+7.使用对应的VS打开生成的sln文件。
+8.修改工程配置，平台工具集最好选用兼容XP的，c++里面MD改为MT编译。
+9.编译生成对应的dll和lib。
