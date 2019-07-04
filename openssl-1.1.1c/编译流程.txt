@@ -1,0 +1,15 @@
+1.下载安装ActivePerl，网址 https://www.activestate.com/products/activeperl/downloads/
+2.下载安装NASM，网址 https://www.nasm.us/
+3.找到NASM的安装目录，运行nasmpath.bat
+4.输入：cd E:\build-libcurl.git\trunk\openssl-1.1.1c\进入openssl源码所在的目录。
+5.输入e:
+6.输入：perl Configure VC-WIN32 no-asm -D_WIN32_WINNT=0x0501 --prefix=E:\build-libcurl.git\trunk\openssl-1.1.1c\OpenSSL --with-zlib-include=E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008 --with-zlib-lib=E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008\contrib\vstudio\vc9\x86\ZlibDllReleaseWithoutAsm\zlib.lib zlib-dynamic no-tests threads enable-weak-ssl-ciphers --with-rand-seed=os 
+7.看到 OpenSSL has been successfully configured 提示，说明成功了。
+8.还是手动配置一下NASM的环境变量吧，不然接下来nmake会报错。在环境变量-系统变量的 Path变量的值的最后添加;C:\Program Files\NASM
+9.修改完环境变量后，此时如果安装的有VS开发工具，那么就在开始菜单找到VS菜单目录，运行VS命令提示符（这里我用的VS2008的命令行工具）。
+10.在提示符中进入openssl的源码目录，输入：cd E:\build-libcurl.git\trunk\openssl-1.1.1c\
+11.输入：e:
+12.将makefile和configdata.pm里面的/MD改为/MT。如果没有找到/MD，先执行下一步。
+13.执行nmake
+14.执行nmake install
+15.生成的文件就在E:\build-libcurl.git\trunk\openssl-1.1.1c\OpenSSL里面
