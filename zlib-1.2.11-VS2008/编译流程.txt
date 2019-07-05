@@ -1,4 +1,5 @@
-1.从http://zlib.net/ 获取源码压缩包，解压。
+﻿1.从http://zlib.net/ 获取源码压缩包，解压。
 2.进入contrib\vstudio\vc9目录，打开sln。
 3.修改生成目标为zlib.dll，导出库为zlib.lib。
 4.选择编译选项，改为MT编译，生成。
+5.其他项目在使用该动态库的lib时，链接时如果报无法解析的符号，可以尝试在对应的项目中加入ZLIB_WINAPI预处理器定义。
