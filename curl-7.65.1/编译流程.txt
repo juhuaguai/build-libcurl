@@ -9,4 +9,6 @@
 10.再次点击configure等待完成，完成后点击点击Generate等待完成。
 11.使用对应的VS打开生成的sln文件，修改工程配置，平台工具集最好选用兼容XP的。
 12.预处理定义里面加入ZLIB_WINAPI，否则可能会报无法解析的符号。
-13.编译生成对应的dll和lib。
+13.在projects目录下，有对应的解决方案文件(sln)，可以打开后选择某项配置时，复制他的预处理器USE_OPENSSL;USE_LIBSSH2;USE_IPV6;HAVE_LIBSSH2_H到根目录下的curl.sln配置中。或者根据需要添加配置。
+14.手动更改一下预处理器里面的_WIN32_WINNT，改为0x0501，以便于兼容xp。
+15.编译生成对应的dll和lib。
