@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jsoncpp_lib", "src\lib_json\jsoncpp_lib.vcxproj", "{65B40BA8-8EBE-3632-9D86-73BC549A22A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		MinSizeRel|Win32 = MinSizeRel|Win32
+		Release|Win32 = Release|Win32
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65B40BA8-8EBE-3632-9D86-73BC549A22A7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{65B40BA8-8EBE-3632-9D86-73BC549A22A7}.Debug|Win32.Build.0 = Debug|Win32
+		{65B40BA8-8EBE-3632-9D86-73BC549A22A7}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{65B40BA8-8EBE-3632-9D86-73BC549A22A7}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{65B40BA8-8EBE-3632-9D86-73BC549A22A7}.Release|Win32.ActiveCfg = Release|Win32
+		{65B40BA8-8EBE-3632-9D86-73BC549A22A7}.Release|Win32.Build.0 = Release|Win32
+		{65B40BA8-8EBE-3632-9D86-73BC549A22A7}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{65B40BA8-8EBE-3632-9D86-73BC549A22A7}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {436A3FA1-FE20-366E-9DB2-0D1123E8D238}
+	EndGlobalSection
+EndGlobal
