@@ -1,75 +1,75 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_pq.c">
+    <ClCompile Include="nghttp2_pq.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_map.c">
+    <ClCompile Include="nghttp2_map.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_queue.c">
+    <ClCompile Include="nghttp2_queue.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_frame.c">
+    <ClCompile Include="nghttp2_frame.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_buf.c">
+    <ClCompile Include="nghttp2_buf.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_stream.c">
+    <ClCompile Include="nghttp2_stream.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_outbound_item.c">
+    <ClCompile Include="nghttp2_outbound_item.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_session.c">
+    <ClCompile Include="nghttp2_session.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_submit.c">
+    <ClCompile Include="nghttp2_submit.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_helper.c">
+    <ClCompile Include="nghttp2_helper.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_npn.c">
+    <ClCompile Include="nghttp2_npn.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_hd.c">
+    <ClCompile Include="nghttp2_hd.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_hd_huffman.c">
+    <ClCompile Include="nghttp2_hd_huffman.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_hd_huffman_data.c">
+    <ClCompile Include="nghttp2_hd_huffman_data.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_version.c">
+    <ClCompile Include="nghttp2_version.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_priority_spec.c">
+    <ClCompile Include="nghttp2_priority_spec.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_option.c">
+    <ClCompile Include="nghttp2_option.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_callbacks.c">
+    <ClCompile Include="nghttp2_callbacks.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_mem.c">
+    <ClCompile Include="nghttp2_mem.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_http.c">
+    <ClCompile Include="nghttp2_http.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_rcbuf.c">
+    <ClCompile Include="nghttp2_rcbuf.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\nghttp2-1.39.1\lib\nghttp2_debug.c">
+    <ClCompile Include="nghttp2_debug.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="E:\libcurl\nghttp2-1.39.1\lib\version.rc">
+    <ResourceCompile Include="version.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>

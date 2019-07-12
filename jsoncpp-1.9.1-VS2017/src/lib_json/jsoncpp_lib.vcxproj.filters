@@ -1,48 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\jsoncpp1.9.1\src\lib_json\json_reader.cpp">
+    <ClCompile Include="json_reader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\jsoncpp1.9.1\src\lib_json\json_value.cpp">
+    <ClCompile Include="json_value.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\jsoncpp1.9.1\src\lib_json\json_writer.cpp">
+    <ClCompile Include="json_writer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\jsoncpp1.9.1\include\json\config.h">
+    <ClInclude Include="..\..\include\json\config.h">
       <Filter>Public API</Filter>
     </ClInclude>
-    <ClInclude Include="E:\jsoncpp1.9.1\include\json\forwards.h">
+    <ClInclude Include="..\..\include\json\forwards.h">
       <Filter>Public API</Filter>
     </ClInclude>
-    <ClInclude Include="E:\jsoncpp1.9.1\include\json\features.h">
+    <ClInclude Include="..\..\include\json\features.h">
       <Filter>Public API</Filter>
     </ClInclude>
-    <ClInclude Include="E:\jsoncpp1.9.1\include\json\value.h">
+    <ClInclude Include="..\..\include\json\value.h">
       <Filter>Public API</Filter>
     </ClInclude>
-    <ClInclude Include="E:\jsoncpp1.9.1\include\json\reader.h">
+    <ClInclude Include="..\..\include\json\reader.h">
       <Filter>Public API</Filter>
     </ClInclude>
-    <ClInclude Include="E:\jsoncpp1.9.1\include\json\writer.h">
+    <ClInclude Include="..\..\include\json\writer.h">
       <Filter>Public API</Filter>
     </ClInclude>
-    <ClInclude Include="E:\jsoncpp1.9.1\include\json\assertions.h">
+    <ClInclude Include="..\..\include\json\assertions.h">
       <Filter>Public API</Filter>
     </ClInclude>
-    <ClInclude Include="E:\jsoncpp1.9.1\include\json\version.h">
+    <ClInclude Include="..\..\include\json\version.h">
       <Filter>Public API</Filter>
     </ClInclude>
-    <ClInclude Include="E:\jsoncpp1.9.1\src\lib_json\json_tool.h">
+    <ClInclude Include="json_tool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\jsoncpp1.9.1\src\lib_json\json_valueiterator.inl">
+    <ClInclude Include="json_valueiterator.inl">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\jsoncpp1.9.1\src\lib_json\version.h.in">
+    <ClInclude Include="version.h.in">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

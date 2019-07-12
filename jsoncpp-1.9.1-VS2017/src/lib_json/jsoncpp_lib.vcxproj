@@ -56,7 +56,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\jsoncpp1.9.1\src\lib_json\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">jsoncpp_lib.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">jsoncpp</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
@@ -68,13 +68,13 @@
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\jsoncpp1.9.1\src\lib_json\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">jsoncpp_lib.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">jsoncpp</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\jsoncpp1.9.1\src\lib_json\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">jsoncpp_lib.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">jsoncpp</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
@@ -83,7 +83,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>\include;E:\jsoncpp1.9.1\src\lib_json\..\..\include;E:\jsoncpp1.9.1\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>\include;..\..\include;..\..\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -101,10 +101,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;JSON_DLL_BUILD;CMAKE_INTDIR=\"Debug\";jsoncpp_lib_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>\include;E:\jsoncpp1.9.1\src\lib_json\..\..\include;E:\jsoncpp1.9.1\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>\include;..\..\include;..\..\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>\include;E:\jsoncpp1.9.1\src\lib_json\..\..\include;E:\jsoncpp1.9.1\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>\include;..\..\include;..\..\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -145,10 +145,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;JSON_DLL_BUILD;CMAKE_INTDIR=\"Release\";jsoncpp_lib_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>\include;E:\jsoncpp1.9.1\src\lib_json\..\..\include;E:\jsoncpp1.9.1\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>\include;..\..\include;..\..\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>\include;E:\jsoncpp1.9.1\src\lib_json\..\..\include;E:\jsoncpp1.9.1\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>\include;..\..\include;..\..\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -171,7 +171,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>\include;E:\jsoncpp1.9.1\src\lib_json\..\..\include;E:\jsoncpp1.9.1\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>\include;..\..\include;..\..\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -189,10 +189,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;JSON_DLL_BUILD;CMAKE_INTDIR=\"MinSizeRel\";jsoncpp_lib_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>\include;E:\jsoncpp1.9.1\src\lib_json\..\..\include;E:\jsoncpp1.9.1\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>\include;..\..\include;..\..\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>\include;E:\jsoncpp1.9.1\src\lib_json\..\..\include;E:\jsoncpp1.9.1\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>\include;..\..\include;..\..\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -215,7 +215,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>\include;E:\jsoncpp1.9.1\src\lib_json\..\..\include;E:\jsoncpp1.9.1\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>\include;..\..\include;..\..\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -232,10 +232,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;JSON_DLL_BUILD;CMAKE_INTDIR=\"RelWithDebInfo\";jsoncpp_lib_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>\include;E:\jsoncpp1.9.1\src\lib_json\..\..\include;E:\jsoncpp1.9.1\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>\include;..\..\include;..\..\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>\include;E:\jsoncpp1.9.1\src\lib_json\..\..\include;E:\jsoncpp1.9.1\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>\include;..\..\include;..\..\include\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -257,20 +257,20 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="E:\jsoncpp1.9.1\include\json\config.h" />
-    <ClInclude Include="E:\jsoncpp1.9.1\include\json\forwards.h" />
-    <ClInclude Include="E:\jsoncpp1.9.1\include\json\features.h" />
-    <ClInclude Include="E:\jsoncpp1.9.1\include\json\value.h" />
-    <ClInclude Include="E:\jsoncpp1.9.1\include\json\reader.h" />
-    <ClInclude Include="E:\jsoncpp1.9.1\include\json\writer.h" />
-    <ClInclude Include="E:\jsoncpp1.9.1\include\json\assertions.h" />
-    <ClInclude Include="E:\jsoncpp1.9.1\include\json\version.h" />
-    <ClInclude Include="E:\jsoncpp1.9.1\src\lib_json\json_tool.h" />
-    <ClCompile Include="E:\jsoncpp1.9.1\src\lib_json\json_reader.cpp" />
-    <ClInclude Include="E:\jsoncpp1.9.1\src\lib_json\json_valueiterator.inl" />
-    <ClCompile Include="E:\jsoncpp1.9.1\src\lib_json\json_value.cpp" />
-    <ClCompile Include="E:\jsoncpp1.9.1\src\lib_json\json_writer.cpp" />
-    <ClInclude Include="E:\jsoncpp1.9.1\src\lib_json\version.h.in" />
+    <ClInclude Include="..\..\include\json\config.h" />
+    <ClInclude Include="..\..\include\json\forwards.h" />
+    <ClInclude Include="..\..\include\json\features.h" />
+    <ClInclude Include="..\..\include\json\value.h" />
+    <ClInclude Include="..\..\include\json\reader.h" />
+    <ClInclude Include="..\..\include\json\writer.h" />
+    <ClInclude Include="..\..\include\json\assertions.h" />
+    <ClInclude Include="..\..\include\json\version.h" />
+    <ClInclude Include="json_tool.h" />
+    <ClCompile Include="json_reader.cpp" />
+    <ClInclude Include="json_valueiterator.inl" />
+    <ClCompile Include="json_value.cpp" />
+    <ClCompile Include="json_writer.cpp" />
+    <ClInclude Include="version.h.in" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

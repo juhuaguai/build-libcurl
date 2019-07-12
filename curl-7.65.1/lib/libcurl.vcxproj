@@ -56,8 +56,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\libcurl\curl-7.65.1\lib\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libcurl.dir\Debug\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libcurl-d</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
@@ -68,14 +68,14 @@
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\libcurl\curl-7.65.1\lib\MinSizeRel\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libcurl.dir\MinSizeRel\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libcurl</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\libcurl\curl-7.65.1\lib\RelWithDebInfo\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libcurl.dir\RelWithDebInfo\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libcurl</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
@@ -83,7 +83,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib\..\include;E:\libcurl\curl-7.65.1\lib\..;E:\libcurl\curl-7.65.1\lib;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\include;..;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsC</CompileAs>
@@ -102,10 +102,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_DEBUG;_WINDOWS;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR=\"Debug\";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib\..\include;E:\libcurl\curl-7.65.1\lib\..;E:\libcurl\curl-7.65.1\lib;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\include;..;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib\..\include;E:\libcurl\curl-7.65.1\lib\..;E:\libcurl\curl-7.65.1\lib;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\include;..;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -118,8 +118,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/libcurl/curl-7.65.1/lib/Debug/libcurl-d_imp.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/libcurl/curl-7.65.1/lib/Debug/libcurl-d.pdb</ProgramDataBaseFile>
+      <ImportLibrary>Debug/libcurl-d_imp.lib</ImportLibrary>
+      <ProgramDataBaseFile>Debug/libcurl-d.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -150,7 +150,7 @@
       <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib\..\include;E:\libcurl\curl-7.65.1\lib\..;E:\libcurl\curl-7.65.1\lib;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\include;..;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -173,7 +173,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib\..\include;E:\libcurl\curl-7.65.1\lib\..;E:\libcurl\curl-7.65.1\lib;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\include;..;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <DisableSpecificWarnings>4127</DisableSpecificWarnings>
@@ -192,10 +192,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_WINDOWS;NDEBUG;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR=\"MinSizeRel\";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib\..\include;E:\libcurl\curl-7.65.1\lib\..;E:\libcurl\curl-7.65.1\lib;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\include;..;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib\..\include;E:\libcurl\curl-7.65.1\lib\..;E:\libcurl\curl-7.65.1\lib;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\include;..;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,8 +208,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/libcurl/curl-7.65.1/lib/MinSizeRel/libcurl_imp.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/libcurl/curl-7.65.1/lib/MinSizeRel/libcurl.pdb</ProgramDataBaseFile>
+      <ImportLibrary>MinSizeRel/libcurl_imp.lib</ImportLibrary>
+      <ProgramDataBaseFile>MinSizeRel/libcurl.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -218,7 +218,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib\..\include;E:\libcurl\curl-7.65.1\lib\..;E:\libcurl\curl-7.65.1\lib;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\include;..;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -236,10 +236,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_WINDOWS;NDEBUG;BUILDING_LIBCURL;CURL_HIDDEN_SYMBOLS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR=\"RelWithDebInfo\";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib\..\include;E:\libcurl\curl-7.65.1\lib\..;E:\libcurl\curl-7.65.1\lib;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\include;..;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib\..\include;E:\libcurl\curl-7.65.1\lib\..;E:\libcurl\curl-7.65.1\lib;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\include;..;E:\build-libcurl.git\trunk\c-ares-1.14.0-VS2017;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -252,8 +252,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/libcurl/curl-7.65.1/lib/RelWithDebInfo/libcurl_imp.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/libcurl/curl-7.65.1/lib/RelWithDebInfo/libcurl.pdb</ProgramDataBaseFile>
+      <ImportLibrary>RelWithDebInfo/libcurl_imp.lib</ImportLibrary>
+      <ProgramDataBaseFile>RelWithDebInfo/libcurl.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -261,269 +261,269 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\arpa_telnet.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\netrc.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\file.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\timeval.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\hostip.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\progress.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\formdata.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\cookie.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\http.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\sendf.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\ftp.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\url.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\dict.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\if2ip.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\speedcheck.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\urldata.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_ldap.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\escape.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\telnet.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\getinfo.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\strcase.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_sec.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\memdebug.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\http_chunks.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_fnmatch.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\wildcard.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\fileinfo.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\ftplistparser.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\strtok.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\connect.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\llist.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\hash.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\content_encoding.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\share.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_md4.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_md5.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\http_digest.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\http_negotiate.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\inet_pton.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\amigaos.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\strtoofft.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\strerror.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\inet_ntop.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curlx.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_memory.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_setup.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\transfer.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\select.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\easyif.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\multiif.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\parsedate.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\tftp.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\sockaddr.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\splay.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\strdup.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\socks.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\ssh.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_base64.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_addrinfo.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_sspi.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\slist.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\nonblock.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_memrchr.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\imap.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\pop3.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\smtp.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\pingpong.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\rtsp.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_threads.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\warnless.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_hmac.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_rtmp.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_gethostname.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\gopher.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\http_proxy.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\non-ascii.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\asyn.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\http_ntlm.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_gssapi.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_ntlm_wb.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_ntlm_core.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_sasl.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_multibyte.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\hostcheck.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\conncache.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_setup_once.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\multihandle.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\setup-vms.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\dotdot.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\x509asn1.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\http2.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\sigpipe.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\smb.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_endian.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_des.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_printf.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\system_win32.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\rand.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\mime.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_sha256.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\setopt.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_path.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_ctype.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_range.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\psl.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\doh.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\urlapi-int.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_get_line.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\altsvc.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\vauth\vauth.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\vauth\digest.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\vauth\ntlm.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\vtls\openssl.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\vtls\vtls.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\vtls\gtls.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\vtls\nssg.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\vtls\polarssl.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\vtls\polarssl_threadlock.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\vtls\cyassl.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\vtls\schannel.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\vtls\sectransp.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\vtls\gskit.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\vtls\mbedtls.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\vtls\mesalink.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\lib\curl_config.h" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\file.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\timeval.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\base64.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\hostip.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\progress.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\formdata.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\cookie.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\http.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\sendf.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\ftp.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\url.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\dict.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\if2ip.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\speedcheck.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\ldap.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\version.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\getenv.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\escape.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\mprintf.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\telnet.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\netrc.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\getinfo.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\transfer.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\strcase.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\easy.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\security.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_fnmatch.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\fileinfo.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\ftplistparser.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\wildcard.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\krb5.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\memdebug.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\http_chunks.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\strtok.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\connect.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\llist.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\hash.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\multi.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\content_encoding.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\share.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\http_digest.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\md4.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\md5.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\http_negotiate.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\inet_pton.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\strtoofft.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\strerror.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\amigaos.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\hostasyn.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\hostip4.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\hostip6.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\hostsyn.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\inet_ntop.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\parsedate.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\select.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\tftp.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\splay.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\strdup.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\socks.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\ssh.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\ssh-libssh.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_addrinfo.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\socks_gssapi.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\socks_sspi.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_sspi.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\slist.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\nonblock.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_memrchr.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\imap.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\pop3.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\smtp.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\pingpong.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\rtsp.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_threads.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\warnless.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\hmac.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_rtmp.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\openldap.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_gethostname.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\gopher.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\idn_win32.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\http_proxy.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\non-ascii.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\asyn-ares.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\asyn-thread.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_gssapi.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\http_ntlm.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_ntlm_wb.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_ntlm_core.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_sasl.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\rand.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_multibyte.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\hostcheck.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\conncache.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\dotdot.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\x509asn1.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\http2.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\smb.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_endian.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_des.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\system_win32.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\mime.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\sha256.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\setopt.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_path.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_ctype.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_range.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\psl.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\doh.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\urlapi.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_get_line.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\altsvc.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vauth\vauth.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vauth\cleartext.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vauth\cram.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vauth\digest.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vauth\digest_sspi.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vauth\krb5_gssapi.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vauth\krb5_sspi.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vauth\ntlm.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vauth\ntlm_sspi.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vauth\oauth2.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vauth\spnego_gssapi.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vauth\spnego_sspi.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vtls\openssl.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vtls\gtls.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vtls\vtls.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vtls\nss.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vtls\polarssl.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vtls\polarssl_threadlock.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vtls\cyassl.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vtls\schannel.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vtls\schannel_verify.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vtls\sectransp.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vtls\gskit.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vtls\mbedtls.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\vtls\mesalink.c" />
-    <ResourceCompile Include="E:\libcurl\curl-7.65.1\lib\libcurl.rc" />
+    <ClInclude Include="arpa_telnet.h" />
+    <ClInclude Include="netrc.h" />
+    <ClInclude Include="file.h" />
+    <ClInclude Include="timeval.h" />
+    <ClInclude Include="hostip.h" />
+    <ClInclude Include="progress.h" />
+    <ClInclude Include="formdata.h" />
+    <ClInclude Include="cookie.h" />
+    <ClInclude Include="http.h" />
+    <ClInclude Include="sendf.h" />
+    <ClInclude Include="ftp.h" />
+    <ClInclude Include="url.h" />
+    <ClInclude Include="dict.h" />
+    <ClInclude Include="if2ip.h" />
+    <ClInclude Include="speedcheck.h" />
+    <ClInclude Include="urldata.h" />
+    <ClInclude Include="curl_ldap.h" />
+    <ClInclude Include="escape.h" />
+    <ClInclude Include="telnet.h" />
+    <ClInclude Include="getinfo.h" />
+    <ClInclude Include="strcase.h" />
+    <ClInclude Include="curl_sec.h" />
+    <ClInclude Include="memdebug.h" />
+    <ClInclude Include="http_chunks.h" />
+    <ClInclude Include="curl_fnmatch.h" />
+    <ClInclude Include="wildcard.h" />
+    <ClInclude Include="fileinfo.h" />
+    <ClInclude Include="ftplistparser.h" />
+    <ClInclude Include="strtok.h" />
+    <ClInclude Include="connect.h" />
+    <ClInclude Include="llist.h" />
+    <ClInclude Include="hash.h" />
+    <ClInclude Include="content_encoding.h" />
+    <ClInclude Include="share.h" />
+    <ClInclude Include="curl_md4.h" />
+    <ClInclude Include="curl_md5.h" />
+    <ClInclude Include="http_digest.h" />
+    <ClInclude Include="http_negotiate.h" />
+    <ClInclude Include="inet_pton.h" />
+    <ClInclude Include="amigaos.h" />
+    <ClInclude Include="strtoofft.h" />
+    <ClInclude Include="strerror.h" />
+    <ClInclude Include="inet_ntop.h" />
+    <ClInclude Include="curlx.h" />
+    <ClInclude Include="curl_memory.h" />
+    <ClInclude Include="curl_setup.h" />
+    <ClInclude Include="transfer.h" />
+    <ClInclude Include="select.h" />
+    <ClInclude Include="easyif.h" />
+    <ClInclude Include="multiif.h" />
+    <ClInclude Include="parsedate.h" />
+    <ClInclude Include="tftp.h" />
+    <ClInclude Include="sockaddr.h" />
+    <ClInclude Include="splay.h" />
+    <ClInclude Include="strdup.h" />
+    <ClInclude Include="socks.h" />
+    <ClInclude Include="ssh.h" />
+    <ClInclude Include="curl_base64.h" />
+    <ClInclude Include="curl_addrinfo.h" />
+    <ClInclude Include="curl_sspi.h" />
+    <ClInclude Include="slist.h" />
+    <ClInclude Include="nonblock.h" />
+    <ClInclude Include="curl_memrchr.h" />
+    <ClInclude Include="imap.h" />
+    <ClInclude Include="pop3.h" />
+    <ClInclude Include="smtp.h" />
+    <ClInclude Include="pingpong.h" />
+    <ClInclude Include="rtsp.h" />
+    <ClInclude Include="curl_threads.h" />
+    <ClInclude Include="warnless.h" />
+    <ClInclude Include="curl_hmac.h" />
+    <ClInclude Include="curl_rtmp.h" />
+    <ClInclude Include="curl_gethostname.h" />
+    <ClInclude Include="gopher.h" />
+    <ClInclude Include="http_proxy.h" />
+    <ClInclude Include="non-ascii.h" />
+    <ClInclude Include="asyn.h" />
+    <ClInclude Include="http_ntlm.h" />
+    <ClInclude Include="curl_gssapi.h" />
+    <ClInclude Include="curl_ntlm_wb.h" />
+    <ClInclude Include="curl_ntlm_core.h" />
+    <ClInclude Include="curl_sasl.h" />
+    <ClInclude Include="curl_multibyte.h" />
+    <ClInclude Include="hostcheck.h" />
+    <ClInclude Include="conncache.h" />
+    <ClInclude Include="curl_setup_once.h" />
+    <ClInclude Include="multihandle.h" />
+    <ClInclude Include="setup-vms.h" />
+    <ClInclude Include="dotdot.h" />
+    <ClInclude Include="x509asn1.h" />
+    <ClInclude Include="http2.h" />
+    <ClInclude Include="sigpipe.h" />
+    <ClInclude Include="smb.h" />
+    <ClInclude Include="curl_endian.h" />
+    <ClInclude Include="curl_des.h" />
+    <ClInclude Include="curl_printf.h" />
+    <ClInclude Include="system_win32.h" />
+    <ClInclude Include="rand.h" />
+    <ClInclude Include="mime.h" />
+    <ClInclude Include="curl_sha256.h" />
+    <ClInclude Include="setopt.h" />
+    <ClInclude Include="curl_path.h" />
+    <ClInclude Include="curl_ctype.h" />
+    <ClInclude Include="curl_range.h" />
+    <ClInclude Include="psl.h" />
+    <ClInclude Include="doh.h" />
+    <ClInclude Include="urlapi-int.h" />
+    <ClInclude Include="curl_get_line.h" />
+    <ClInclude Include="altsvc.h" />
+    <ClInclude Include="vauth\vauth.h" />
+    <ClInclude Include="vauth\digest.h" />
+    <ClInclude Include="vauth\ntlm.h" />
+    <ClInclude Include="vtls\openssl.h" />
+    <ClInclude Include="vtls\vtls.h" />
+    <ClInclude Include="vtls\gtls.h" />
+    <ClInclude Include="vtls\nssg.h" />
+    <ClInclude Include="vtls\polarssl.h" />
+    <ClInclude Include="vtls\polarssl_threadlock.h" />
+    <ClInclude Include="vtls\cyassl.h" />
+    <ClInclude Include="vtls\schannel.h" />
+    <ClInclude Include="vtls\sectransp.h" />
+    <ClInclude Include="vtls\gskit.h" />
+    <ClInclude Include="vtls\mbedtls.h" />
+    <ClInclude Include="vtls\mesalink.h" />
+    <ClInclude Include="curl_config.h" />
+    <ClCompile Include="file.c" />
+    <ClCompile Include="timeval.c" />
+    <ClCompile Include="base64.c" />
+    <ClCompile Include="hostip.c" />
+    <ClCompile Include="progress.c" />
+    <ClCompile Include="formdata.c" />
+    <ClCompile Include="cookie.c" />
+    <ClCompile Include="http.c" />
+    <ClCompile Include="sendf.c" />
+    <ClCompile Include="ftp.c" />
+    <ClCompile Include="url.c" />
+    <ClCompile Include="dict.c" />
+    <ClCompile Include="if2ip.c" />
+    <ClCompile Include="speedcheck.c" />
+    <ClCompile Include="ldap.c" />
+    <ClCompile Include="version.c" />
+    <ClCompile Include="getenv.c" />
+    <ClCompile Include="escape.c" />
+    <ClCompile Include="mprintf.c" />
+    <ClCompile Include="telnet.c" />
+    <ClCompile Include="netrc.c" />
+    <ClCompile Include="getinfo.c" />
+    <ClCompile Include="transfer.c" />
+    <ClCompile Include="strcase.c" />
+    <ClCompile Include="easy.c" />
+    <ClCompile Include="security.c" />
+    <ClCompile Include="curl_fnmatch.c" />
+    <ClCompile Include="fileinfo.c" />
+    <ClCompile Include="ftplistparser.c" />
+    <ClCompile Include="wildcard.c" />
+    <ClCompile Include="krb5.c" />
+    <ClCompile Include="memdebug.c" />
+    <ClCompile Include="http_chunks.c" />
+    <ClCompile Include="strtok.c" />
+    <ClCompile Include="connect.c" />
+    <ClCompile Include="llist.c" />
+    <ClCompile Include="hash.c" />
+    <ClCompile Include="multi.c" />
+    <ClCompile Include="content_encoding.c" />
+    <ClCompile Include="share.c" />
+    <ClCompile Include="http_digest.c" />
+    <ClCompile Include="md4.c" />
+    <ClCompile Include="md5.c" />
+    <ClCompile Include="http_negotiate.c" />
+    <ClCompile Include="inet_pton.c" />
+    <ClCompile Include="strtoofft.c" />
+    <ClCompile Include="strerror.c" />
+    <ClCompile Include="amigaos.c" />
+    <ClCompile Include="hostasyn.c" />
+    <ClCompile Include="hostip4.c" />
+    <ClCompile Include="hostip6.c" />
+    <ClCompile Include="hostsyn.c" />
+    <ClCompile Include="inet_ntop.c" />
+    <ClCompile Include="parsedate.c" />
+    <ClCompile Include="select.c" />
+    <ClCompile Include="tftp.c" />
+    <ClCompile Include="splay.c" />
+    <ClCompile Include="strdup.c" />
+    <ClCompile Include="socks.c" />
+    <ClCompile Include="ssh.c" />
+    <ClCompile Include="ssh-libssh.c" />
+    <ClCompile Include="curl_addrinfo.c" />
+    <ClCompile Include="socks_gssapi.c" />
+    <ClCompile Include="socks_sspi.c" />
+    <ClCompile Include="curl_sspi.c" />
+    <ClCompile Include="slist.c" />
+    <ClCompile Include="nonblock.c" />
+    <ClCompile Include="curl_memrchr.c" />
+    <ClCompile Include="imap.c" />
+    <ClCompile Include="pop3.c" />
+    <ClCompile Include="smtp.c" />
+    <ClCompile Include="pingpong.c" />
+    <ClCompile Include="rtsp.c" />
+    <ClCompile Include="curl_threads.c" />
+    <ClCompile Include="warnless.c" />
+    <ClCompile Include="hmac.c" />
+    <ClCompile Include="curl_rtmp.c" />
+    <ClCompile Include="openldap.c" />
+    <ClCompile Include="curl_gethostname.c" />
+    <ClCompile Include="gopher.c" />
+    <ClCompile Include="idn_win32.c" />
+    <ClCompile Include="http_proxy.c" />
+    <ClCompile Include="non-ascii.c" />
+    <ClCompile Include="asyn-ares.c" />
+    <ClCompile Include="asyn-thread.c" />
+    <ClCompile Include="curl_gssapi.c" />
+    <ClCompile Include="http_ntlm.c" />
+    <ClCompile Include="curl_ntlm_wb.c" />
+    <ClCompile Include="curl_ntlm_core.c" />
+    <ClCompile Include="curl_sasl.c" />
+    <ClCompile Include="rand.c" />
+    <ClCompile Include="curl_multibyte.c" />
+    <ClCompile Include="hostcheck.c" />
+    <ClCompile Include="conncache.c" />
+    <ClCompile Include="dotdot.c" />
+    <ClCompile Include="x509asn1.c" />
+    <ClCompile Include="http2.c" />
+    <ClCompile Include="smb.c" />
+    <ClCompile Include="curl_endian.c" />
+    <ClCompile Include="curl_des.c" />
+    <ClCompile Include="system_win32.c" />
+    <ClCompile Include="mime.c" />
+    <ClCompile Include="sha256.c" />
+    <ClCompile Include="setopt.c" />
+    <ClCompile Include="curl_path.c" />
+    <ClCompile Include="curl_ctype.c" />
+    <ClCompile Include="curl_range.c" />
+    <ClCompile Include="psl.c" />
+    <ClCompile Include="doh.c" />
+    <ClCompile Include="urlapi.c" />
+    <ClCompile Include="curl_get_line.c" />
+    <ClCompile Include="altsvc.c" />
+    <ClCompile Include="vauth\vauth.c" />
+    <ClCompile Include="vauth\cleartext.c" />
+    <ClCompile Include="vauth\cram.c" />
+    <ClCompile Include="vauth\digest.c" />
+    <ClCompile Include="vauth\digest_sspi.c" />
+    <ClCompile Include="vauth\krb5_gssapi.c" />
+    <ClCompile Include="vauth\krb5_sspi.c" />
+    <ClCompile Include="vauth\ntlm.c" />
+    <ClCompile Include="vauth\ntlm_sspi.c" />
+    <ClCompile Include="vauth\oauth2.c" />
+    <ClCompile Include="vauth\spnego_gssapi.c" />
+    <ClCompile Include="vauth\spnego_sspi.c" />
+    <ClCompile Include="vtls\openssl.c" />
+    <ClCompile Include="vtls\gtls.c" />
+    <ClCompile Include="vtls\vtls.c" />
+    <ClCompile Include="vtls\nss.c" />
+    <ClCompile Include="vtls\polarssl.c" />
+    <ClCompile Include="vtls\polarssl_threadlock.c" />
+    <ClCompile Include="vtls\cyassl.c" />
+    <ClCompile Include="vtls\schannel.c" />
+    <ClCompile Include="vtls\schannel_verify.c" />
+    <ClCompile Include="vtls\sectransp.c" />
+    <ClCompile Include="vtls\gskit.c" />
+    <ClCompile Include="vtls\mbedtls.c" />
+    <ClCompile Include="vtls\mesalink.c" />
+    <ResourceCompile Include="libcurl.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

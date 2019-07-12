@@ -56,8 +56,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\libcurl\curl-7.65.1\src\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">curl.dir\Debug\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">curl</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
@@ -68,14 +68,14 @@
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\libcurl\curl-7.65.1\src\MinSizeRel\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">curl.dir\MinSizeRel\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">curl</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\libcurl\curl-7.65.1\src\RelWithDebInfo\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">curl.dir\RelWithDebInfo\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">curl</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
@@ -83,7 +83,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib;E:\libcurl\curl-7.65.1\src;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\lib;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsC</CompileAs>
@@ -101,10 +101,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_DEBUG;_WINDOWS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib;E:\libcurl\curl-7.65.1\src;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\lib;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib;E:\libcurl\curl-7.65.1\src;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\lib;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -117,8 +117,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/libcurl/curl-7.65.1/src/Debug/curl.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/libcurl/curl-7.65.1/src/Debug/curl.pdb</ProgramDataBaseFile>
+      <ImportLibrary>Debug/curl.lib</ImportLibrary>
+      <ProgramDataBaseFile>Debug/curl.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -148,7 +148,7 @@
       <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib\includes;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\lib;.;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib;E:\libcurl\curl-7.65.1\src;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\lib;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -171,7 +171,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib;E:\libcurl\curl-7.65.1\src;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\lib;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -189,10 +189,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib;E:\libcurl\curl-7.65.1\src;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\lib;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib;E:\libcurl\curl-7.65.1\src;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\lib;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -205,8 +205,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/libcurl/curl-7.65.1/src/MinSizeRel/curl.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/libcurl/curl-7.65.1/src/MinSizeRel/curl.pdb</ProgramDataBaseFile>
+      <ImportLibrary>MinSizeRel/curl.lib</ImportLibrary>
+      <ProgramDataBaseFile>MinSizeRel/curl.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -215,7 +215,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib;E:\libcurl\curl-7.65.1\src;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\lib;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -232,10 +232,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib;E:\libcurl\curl-7.65.1\src;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\lib;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\libcurl\curl-7.65.1\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;E:\libcurl\curl-7.65.1\lib;E:\libcurl\curl-7.65.1\src;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;E:\build-libcurl.git\trunk\nghttp2-1.39.1-VS2017\lib;E:\build-libcurl.git\trunk\libssh2-1.9.0-VS2017\include;..\lib;E:\build-libcurl.git\trunk\zlib-1.2.11-VS2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -248,8 +248,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/libcurl/curl-7.65.1/src/RelWithDebInfo/curl.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/libcurl/curl-7.65.1/src/RelWithDebInfo/curl.pdb</ProgramDataBaseFile>
+      <ImportLibrary>RelWithDebInfo/curl.lib</ImportLibrary>
+      <ProgramDataBaseFile>RelWithDebInfo/curl.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -257,95 +257,95 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\slist_wc.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_binmode.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_bname.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_cb_dbg.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_cb_hdr.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_cb_prg.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_cb_rea.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_cb_see.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_cb_wrt.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_cfgable.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_convert.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_dirhie.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_doswin.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_easysrc.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_filetime.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_formparse.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_getparam.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_getpass.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_help.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_helpers.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_homedir.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_hugehelp.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_libinfo.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_main.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_metalink.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_msgs.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_operate.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_operhlp.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_panykey.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_paramhlp.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_parsecfg.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_strdup.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_setopt.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_sleep.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_urlglob.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_util.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_vms.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_writeout.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_xattr.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\strtoofft.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\nonblock.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\warnless.c" />
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_ctype.c" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\slist_wc.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_binmode.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_bname.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_cb_dbg.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_cb_hdr.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_cb_prg.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_cb_rea.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_cb_see.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_cb_wrt.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_cfgable.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_convert.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_dirhie.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_doswin.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_easysrc.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_filetime.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_formparse.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_getparam.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_getpass.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_help.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_helpers.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_homedir.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_hugehelp.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_libinfo.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_main.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_metalink.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_msgs.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_operate.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_operhlp.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_panykey.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_paramhlp.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_parsecfg.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_sdecls.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_setopt.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_setup.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_sleep.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_strdup.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_urlglob.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_util.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_version.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_vms.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_writeout.h" />
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_xattr.h" />
-    <ResourceCompile Include="E:\libcurl\curl-7.65.1\src\curl.rc" />
+    <ClCompile Include="slist_wc.c" />
+    <ClCompile Include="tool_binmode.c" />
+    <ClCompile Include="tool_bname.c" />
+    <ClCompile Include="tool_cb_dbg.c" />
+    <ClCompile Include="tool_cb_hdr.c" />
+    <ClCompile Include="tool_cb_prg.c" />
+    <ClCompile Include="tool_cb_rea.c" />
+    <ClCompile Include="tool_cb_see.c" />
+    <ClCompile Include="tool_cb_wrt.c" />
+    <ClCompile Include="tool_cfgable.c" />
+    <ClCompile Include="tool_convert.c" />
+    <ClCompile Include="tool_dirhie.c" />
+    <ClCompile Include="tool_doswin.c" />
+    <ClCompile Include="tool_easysrc.c" />
+    <ClCompile Include="tool_filetime.c" />
+    <ClCompile Include="tool_formparse.c" />
+    <ClCompile Include="tool_getparam.c" />
+    <ClCompile Include="tool_getpass.c" />
+    <ClCompile Include="tool_help.c" />
+    <ClCompile Include="tool_helpers.c" />
+    <ClCompile Include="tool_homedir.c" />
+    <ClCompile Include="tool_hugehelp.c" />
+    <ClCompile Include="tool_libinfo.c" />
+    <ClCompile Include="tool_main.c" />
+    <ClCompile Include="tool_metalink.c" />
+    <ClCompile Include="tool_msgs.c" />
+    <ClCompile Include="tool_operate.c" />
+    <ClCompile Include="tool_operhlp.c" />
+    <ClCompile Include="tool_panykey.c" />
+    <ClCompile Include="tool_paramhlp.c" />
+    <ClCompile Include="tool_parsecfg.c" />
+    <ClCompile Include="tool_strdup.c" />
+    <ClCompile Include="tool_setopt.c" />
+    <ClCompile Include="tool_sleep.c" />
+    <ClCompile Include="tool_urlglob.c" />
+    <ClCompile Include="tool_util.c" />
+    <ClCompile Include="tool_vms.c" />
+    <ClCompile Include="tool_writeout.c" />
+    <ClCompile Include="tool_xattr.c" />
+    <ClCompile Include="..\lib\strtoofft.c" />
+    <ClCompile Include="..\lib\nonblock.c" />
+    <ClCompile Include="..\lib\warnless.c" />
+    <ClCompile Include="..\lib\curl_ctype.c" />
+    <ClInclude Include="slist_wc.h" />
+    <ClInclude Include="tool_binmode.h" />
+    <ClInclude Include="tool_bname.h" />
+    <ClInclude Include="tool_cb_dbg.h" />
+    <ClInclude Include="tool_cb_hdr.h" />
+    <ClInclude Include="tool_cb_prg.h" />
+    <ClInclude Include="tool_cb_rea.h" />
+    <ClInclude Include="tool_cb_see.h" />
+    <ClInclude Include="tool_cb_wrt.h" />
+    <ClInclude Include="tool_cfgable.h" />
+    <ClInclude Include="tool_convert.h" />
+    <ClInclude Include="tool_dirhie.h" />
+    <ClInclude Include="tool_doswin.h" />
+    <ClInclude Include="tool_easysrc.h" />
+    <ClInclude Include="tool_filetime.h" />
+    <ClInclude Include="tool_formparse.h" />
+    <ClInclude Include="tool_getparam.h" />
+    <ClInclude Include="tool_getpass.h" />
+    <ClInclude Include="tool_help.h" />
+    <ClInclude Include="tool_helpers.h" />
+    <ClInclude Include="tool_homedir.h" />
+    <ClInclude Include="tool_hugehelp.h" />
+    <ClInclude Include="tool_libinfo.h" />
+    <ClInclude Include="tool_main.h" />
+    <ClInclude Include="tool_metalink.h" />
+    <ClInclude Include="tool_msgs.h" />
+    <ClInclude Include="tool_operate.h" />
+    <ClInclude Include="tool_operhlp.h" />
+    <ClInclude Include="tool_panykey.h" />
+    <ClInclude Include="tool_paramhlp.h" />
+    <ClInclude Include="tool_parsecfg.h" />
+    <ClInclude Include="tool_sdecls.h" />
+    <ClInclude Include="tool_setopt.h" />
+    <ClInclude Include="tool_setup.h" />
+    <ClInclude Include="tool_sleep.h" />
+    <ClInclude Include="tool_strdup.h" />
+    <ClInclude Include="tool_urlglob.h" />
+    <ClInclude Include="tool_util.h" />
+    <ClInclude Include="tool_version.h" />
+    <ClInclude Include="tool_vms.h" />
+    <ClInclude Include="tool_writeout.h" />
+    <ClInclude Include="tool_xattr.h" />
+    <ResourceCompile Include="curl.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\libcurl\curl-7.65.1\lib\libcurl.vcxproj">
+    <ProjectReference Include="..\lib\libcurl.vcxproj">
       <Project>{BCE9725E-C476-3303-835E-24E02D8E65A5}</Project>
       <Name>libcurl</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>

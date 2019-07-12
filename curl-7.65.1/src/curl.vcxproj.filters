@@ -1,266 +1,266 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\slist_wc.c">
+    <ClCompile Include="slist_wc.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_binmode.c">
+    <ClCompile Include="tool_binmode.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_bname.c">
+    <ClCompile Include="tool_bname.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_cb_dbg.c">
+    <ClCompile Include="tool_cb_dbg.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_cb_hdr.c">
+    <ClCompile Include="tool_cb_hdr.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_cb_prg.c">
+    <ClCompile Include="tool_cb_prg.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_cb_rea.c">
+    <ClCompile Include="tool_cb_rea.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_cb_see.c">
+    <ClCompile Include="tool_cb_see.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_cb_wrt.c">
+    <ClCompile Include="tool_cb_wrt.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_cfgable.c">
+    <ClCompile Include="tool_cfgable.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_convert.c">
+    <ClCompile Include="tool_convert.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_dirhie.c">
+    <ClCompile Include="tool_dirhie.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_doswin.c">
+    <ClCompile Include="tool_doswin.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_easysrc.c">
+    <ClCompile Include="tool_easysrc.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_filetime.c">
+    <ClCompile Include="tool_filetime.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_formparse.c">
+    <ClCompile Include="tool_formparse.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_getparam.c">
+    <ClCompile Include="tool_getparam.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_getpass.c">
+    <ClCompile Include="tool_getpass.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_help.c">
+    <ClCompile Include="tool_help.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_helpers.c">
+    <ClCompile Include="tool_helpers.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_homedir.c">
+    <ClCompile Include="tool_homedir.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_hugehelp.c">
+    <ClCompile Include="tool_hugehelp.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_libinfo.c">
+    <ClCompile Include="tool_libinfo.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_main.c">
+    <ClCompile Include="tool_main.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_metalink.c">
+    <ClCompile Include="tool_metalink.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_msgs.c">
+    <ClCompile Include="tool_msgs.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_operate.c">
+    <ClCompile Include="tool_operate.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_operhlp.c">
+    <ClCompile Include="tool_operhlp.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_panykey.c">
+    <ClCompile Include="tool_panykey.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_paramhlp.c">
+    <ClCompile Include="tool_paramhlp.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_parsecfg.c">
+    <ClCompile Include="tool_parsecfg.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_strdup.c">
+    <ClCompile Include="tool_strdup.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_setopt.c">
+    <ClCompile Include="tool_setopt.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_sleep.c">
+    <ClCompile Include="tool_sleep.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_urlglob.c">
+    <ClCompile Include="tool_urlglob.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_util.c">
+    <ClCompile Include="tool_util.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_vms.c">
+    <ClCompile Include="tool_vms.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_writeout.c">
+    <ClCompile Include="tool_writeout.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\src\tool_xattr.c">
+    <ClCompile Include="tool_xattr.c">
       <Filter>curl source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\strtoofft.c">
+    <ClCompile Include="..\lib\strtoofft.c">
       <Filter>curlX source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\nonblock.c">
+    <ClCompile Include="..\lib\nonblock.c">
       <Filter>curlX source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\warnless.c">
+    <ClCompile Include="..\lib\warnless.c">
       <Filter>curlX source files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libcurl\curl-7.65.1\lib\curl_ctype.c">
+    <ClCompile Include="..\lib\curl_ctype.c">
       <Filter>curlX source files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\slist_wc.h">
+    <ClInclude Include="slist_wc.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_binmode.h">
+    <ClInclude Include="tool_binmode.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_bname.h">
+    <ClInclude Include="tool_bname.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_cb_dbg.h">
+    <ClInclude Include="tool_cb_dbg.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_cb_hdr.h">
+    <ClInclude Include="tool_cb_hdr.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_cb_prg.h">
+    <ClInclude Include="tool_cb_prg.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_cb_rea.h">
+    <ClInclude Include="tool_cb_rea.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_cb_see.h">
+    <ClInclude Include="tool_cb_see.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_cb_wrt.h">
+    <ClInclude Include="tool_cb_wrt.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_cfgable.h">
+    <ClInclude Include="tool_cfgable.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_convert.h">
+    <ClInclude Include="tool_convert.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_dirhie.h">
+    <ClInclude Include="tool_dirhie.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_doswin.h">
+    <ClInclude Include="tool_doswin.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_easysrc.h">
+    <ClInclude Include="tool_easysrc.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_filetime.h">
+    <ClInclude Include="tool_filetime.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_formparse.h">
+    <ClInclude Include="tool_formparse.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_getparam.h">
+    <ClInclude Include="tool_getparam.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_getpass.h">
+    <ClInclude Include="tool_getpass.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_help.h">
+    <ClInclude Include="tool_help.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_helpers.h">
+    <ClInclude Include="tool_helpers.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_homedir.h">
+    <ClInclude Include="tool_homedir.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_hugehelp.h">
+    <ClInclude Include="tool_hugehelp.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_libinfo.h">
+    <ClInclude Include="tool_libinfo.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_main.h">
+    <ClInclude Include="tool_main.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_metalink.h">
+    <ClInclude Include="tool_metalink.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_msgs.h">
+    <ClInclude Include="tool_msgs.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_operate.h">
+    <ClInclude Include="tool_operate.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_operhlp.h">
+    <ClInclude Include="tool_operhlp.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_panykey.h">
+    <ClInclude Include="tool_panykey.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_paramhlp.h">
+    <ClInclude Include="tool_paramhlp.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_parsecfg.h">
+    <ClInclude Include="tool_parsecfg.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_sdecls.h">
+    <ClInclude Include="tool_sdecls.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_setopt.h">
+    <ClInclude Include="tool_setopt.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_setup.h">
+    <ClInclude Include="tool_setup.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_sleep.h">
+    <ClInclude Include="tool_sleep.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_strdup.h">
+    <ClInclude Include="tool_strdup.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_urlglob.h">
+    <ClInclude Include="tool_urlglob.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_util.h">
+    <ClInclude Include="tool_util.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_version.h">
+    <ClInclude Include="tool_version.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_vms.h">
+    <ClInclude Include="tool_vms.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_writeout.h">
+    <ClInclude Include="tool_writeout.h">
       <Filter>curl header files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libcurl\curl-7.65.1\src\tool_xattr.h">
+    <ClInclude Include="tool_xattr.h">
       <Filter>curl header files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="E:\libcurl\curl-7.65.1\src\curl.rc">
+    <ResourceCompile Include="curl.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>

@@ -1,119 +1,119 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\libssh2-1.9.0\src\openssl.c">
+    <ClCompile Include="openssl.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\agent.c">
+    <ClCompile Include="agent.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\bcrypt_pbkdf.c">
+    <ClCompile Include="bcrypt_pbkdf.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\blowfish.c">
+    <ClCompile Include="blowfish.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\channel.c">
+    <ClCompile Include="channel.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\comp.c">
+    <ClCompile Include="comp.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\crypt.c">
+    <ClCompile Include="crypt.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\global.c">
+    <ClCompile Include="global.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\hostkey.c">
+    <ClCompile Include="hostkey.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\keepalive.c">
+    <ClCompile Include="keepalive.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\kex.c">
+    <ClCompile Include="kex.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\knownhost.c">
+    <ClCompile Include="knownhost.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\mac.c">
+    <ClCompile Include="mac.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\misc.c">
+    <ClCompile Include="misc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\packet.c">
+    <ClCompile Include="packet.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\pem.c">
+    <ClCompile Include="pem.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\publickey.c">
+    <ClCompile Include="publickey.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\scp.c">
+    <ClCompile Include="scp.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\session.c">
+    <ClCompile Include="session.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\sftp.c">
+    <ClCompile Include="sftp.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\transport.c">
+    <ClCompile Include="transport.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\userauth.c">
+    <ClCompile Include="userauth.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\libssh2-1.9.0\src\version.c">
+    <ClCompile Include="version.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\libssh2-1.9.0\src\openssl.h">
+    <ClInclude Include="openssl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libssh2-1.9.0\src\blf.h">
+    <ClInclude Include="blf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libssh2-1.9.0\src\channel.h">
+    <ClInclude Include="channel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libssh2-1.9.0\src\comp.h">
+    <ClInclude Include="comp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libssh2-1.9.0\src\crypto.h">
+    <ClInclude Include="crypto.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libssh2-1.9.0\src\libssh2_priv.h">
+    <ClInclude Include="libssh2_priv.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libssh2-1.9.0\src\mac.h">
+    <ClInclude Include="mac.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libssh2-1.9.0\src\misc.h">
+    <ClInclude Include="misc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libssh2-1.9.0\src\packet.h">
+    <ClInclude Include="packet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libssh2-1.9.0\src\session.h">
+    <ClInclude Include="session.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libssh2-1.9.0\src\sftp.h">
+    <ClInclude Include="sftp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libssh2-1.9.0\src\transport.h">
+    <ClInclude Include="transport.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\libssh2-1.9.0\src\userauth.h">
+    <ClInclude Include="userauth.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="E:\libssh2-1.9.0\win32\libssh2.rc">
+    <ResourceCompile Include="..\win32\libssh2.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
